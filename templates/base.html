@@ -28,13 +28,13 @@
             <a class="nav-link {% block homeactive %}{% endblock homeactive%}" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {% block aboutactive %}{% endblock aboutactive%}" href="about">About</a>
+            <a class="nav-link {% block aboutactive %}{% endblock aboutactive%}" href="{%url 'about'%}">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {% block contactactive %}{% endblock contactactive%}" href="Contact">Contact Us</a>
+            <a class="nav-link {% block contactactive %}{% endblock contactactive%}" href="{%url 'contact'%}">Contact Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {% block projectactive %}{% endblock projectactive%}" href="projects">Projects</a>
+            <a class="nav-link {% block projectactive %}{% endblock projectactive%}" href="{%url 'project'%}">Projects</a>
           </li>
         </ul>
         <form class="d-flex">
